@@ -1,0 +1,133 @@
+@media screen and (min-width:1200px){
+  
+    #chamber-menu{
+        display: none;
+      }
+      
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        color: #dedcdc;
+    }
+      
+    .navigation a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      .navigation a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+    .navigation a:visited{
+        color:white;
+      }
+      
+      
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+
+
+    .content1 .main-title {
+        font-family: fontello; 
+         font-weight: 600;
+         font-size: 1rem;
+         text-align: center;
+       }
+    main {
+    display: grid; 
+    grid-template-areas:
+    "event    content3    content4"
+    "content5 content3    content4"
+    "content7 new-release content4";
+    }
+
+    .showcase3 {
+        grid-area: content3;
+     /*   background: url(../images/tolantongo.jpg) center center;*/
+     /*   height: 87%;*/
+        
+        
+        
+    }
+    
+
+
+    .showcase3 h1 {
+        font-size: 2.8rem;
+        margin-bottom: 0;
+        color: white;
+        background-color: limegreen;
+        text-shadow: 2px 2px #474242
+        
+        
+    }
+
+
+    .showcase-events {
+        grid-area: event;
+        min-height: auto;
+    /*    background: url(../images/pasty.jpg);*/
+        background-size: cover;
+        background-position: center;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        box-shadow: var(--shadow); 
+        z-index:10 ;
+    }
+.columna-anuncios{
+        grid-area: columna-anuncios;
+    }
+.columna-anuncios{
+    display: flex;
+    flex-direction: column;
+}
+
+.columna-pics{
+        grid-area: columna-pics;
+ 
+}
+.columna-pics{
+        display: flex;
+        flex-direction: column;
+}
+
+.columna-anuncios,.columna-pics{
+    row-gap: 10px;
+}
+
+
+.wraper{
+    display: grid;
+    grid-template-columns: 350px 15% 550px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'columna-anuncios . columna-pics';
+
+}
+    /******/
+
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "sub-title     sub-title"
+        "personal-info membership-level"
+        "address       type-of-payment";
+      }
+     
+}
+
+

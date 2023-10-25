@@ -1,0 +1,30 @@
+main{
+  margin-left: 10%;
+}
+
+ label{
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  margin-left: 0;
+  margin-top: 2rem;
+ }
+
+ 
+ input{
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: .5rem;
+  width: 400px;
+
+}
+.form{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+button{
+  font-size: 2rem;
+  margin-top:3rem;
+  margin-bottom: 3rem;
+}

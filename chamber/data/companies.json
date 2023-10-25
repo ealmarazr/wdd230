@@ -1,0 +1,36 @@
+{
+    "companies": [
+      {
+        "company": "Panaderia La Luz",
+        "Address": [
+          {
+            "street":"123 North St",
+            "city":"Los Angeles",
+            "zipCode":"84121"
+          }
+        ]
+      },
+      {
+        "company": "Zapateria La Duradera",
+        "Address": [
+          {
+            "street":"321 South St",
+            "city":"Los Angeles",
+            "zipCode":"84331"
+          }
+        ]
+       
+      },
+      {
+       
+        "company": "Cha-Cha-Cha Dance Club",
+        "Address": [
+          {
+            "street":"777 South St",
+            "city":"Los Angeles",
+            "zipCode":"84981"
+          }
+        ]
+    }
+]
+}

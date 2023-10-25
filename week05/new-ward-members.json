@@ -1,0 +1,14 @@
+[
+    {
+        "familyNname":"Almaraz",
+        "dateMoveIn":"10/01/2021",
+        "sizeFamily":"5",
+        "visitedByBishop":"1",
+        "familyMembers":{
+            "name":"Lucas",
+            "gender":"m",
+            "birthdate":"12/11/1974"
+        }
+
+    }
+]

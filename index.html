@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230, Esteban Almaraz. Invitation to enroll to the Chamber of Commerce.">
+    <meta name="author"      content="Esteban Almaraz Reyes">
+    <title>Esteban Almaraz - WDD 230 - Web Frontend Development</title>
+    <meta name="WDD-230"     content="Lessons of the curse">
+    <meta property = "og:image" content="images/westvalley.jpg">
+    <meta property = "og:title" content="Homepage WDD230">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css"      rel="stylesheet">
+    <link href="styles/larger.css"    rel="stylesheet">
+    <link href="styles/form.css"      rel="stylesheet">
+</head> 
+<body>
+   
+
+<div class="wrapper">
+    <header class="header-wrapper">
+            <div class="header">
+                <img src="images/ear.webp" alt="Esteban Almaraz">
+                <div class="name">
+                    <h1>  Esteban Almaraz Reyes </h1>
+                </div> 
+            </div> 
+    </header>
+
+     <main class="main-wrapper">
+        <div class="main-navigation">
+            <nav>
+                <button id="menu"></button>
+                    <ul class="navigation" id="primaryNav">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="chamber/index.html" title="Hidalgo Chamber of Commerce">Chamber</a></li>
+                        <li><a href="week01/chamber-site-plan.html" title="Site plan">Site Plan</a></li>
+                        <li><a href="form.html" title = "Form">Form</a></li>
+                    </ul>
+                
+            </nav> 
+        </div>
+        
+        <div class="hero">
+            <picture class="myPicture">
+                <source media="(max-width:400px)" srcset="images/hero-small.webp">
+                <source media="(max-width:960px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="hero photo"  width="960" height="480"
+                loading="lazy">
+            </picture>
+            <div class="herolabel">
+                <p>Mexico City Temple</p>
+            </div>
+        </div>
+        <div class="title-c">
+            <h2>WDD 230: Web Frontend Development</h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="classes-detalle">
+            <div class="cards">
+                <div class="card1">
+                    <h3>Learning Activities</h3>
+                    <ul>
+                        <li><span>Week 01: </span><a href="#">File and Folder Naming Convenctions</a>
+                            <a href="#">Grail</a><span> | </span>
+                            <a href="#">Responsive Design:CSS Media Queries</a>
+                        </li>
+
+                        <li><span>Week 02: </span><a href="#">Design Principles</a>
+                            <a href="#">Favicon</a><span> | </span>
+                            <a href="#">Social Media Meta</a><span> | </span>
+                            <a href="#">Reponsive Hamburger Menu</a><span> | </span>
+                            <a href="#">DOM Manipulation</a><span> | </span>
+                            <a href="#">CSS Specificity</a><span> | </span>
+                            <a href="#">CSS Normalize and Reset</a>
+                        </li>
+
+
+                        <li><span>Week 03: </span><a href="images/landscape.webp">WebP Image File Format</a>
+                            <a href="week03/lazyload.html">Native Lazy Loading</a><span> | </span>
+                            <a href="week03/responsive-images.html">Responsive Images - Srcset</a><span> | </span>
+                            <a href="#">Web Storage API - localStorage</a>
+                        </li>
+
+                        <li><span>Week 04: </span><a href="https://codepen.io/ear2/pen/OJreYGb">CSS Pseudo Classes</a>
+                            <a href="images/Combinator-exercises.png">CSS Combinators</a><span> | </span>
+                            <a href="https://codepen.io/ear2/pen/rNobOYL">HTML Table for Data Presentation</a><span>|</span>
+                            <a href="week04/index.html">HTML Forms</a>
+                        </li>
+                        <li><span>Week 05: </span><a href="#"></a>
+                            <a href="#">Pseudo-elements</a><span> | </span>
+                            <a href="week05/new-ward-members.json">Working with JSON data</a><span> | </span>
+                            <a href="week05/prophets.html">The Fetch api</a><span> | </span>
+                            <a href="week05/weather.html">Consuming a third-party Weather API</a>
+                        </li>
+
+
+                        <li><span>Week 06: </span><a href="#"></a></li>
+                    </ul>
+                </div>
+            
+
+                <div class="card2">
+                    <h3>Weather</h3>
+                    
+                    <img src="images/weather-image.jpeg" alt="Luces Celestiales">
+                    <div class="card-title">
+                        <div id="today">
+                            <p> <span class="green">Tempeture</span><br><span  id="current-temp"></span> </p>
+                            <figure>
+                                <img id="weather-icon" src="" alt="">
+                                <figcaption></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                    
+               
+                <div class="card3">
+                    <h3>Jugos Saludables</h3>
+                    <img src="images/jugos-verdes.jpg" alt="2 Luces Celestiales">
+                    <p>Healty food!!</p>
+                    <p>Visitanos: Estamos en </p>
+                </div>
+
+                <div class="card4">
+                    <h3>Feria del Mole</h3>
+                    <img src="images/Screen Shot 2023-10-16 at 7.58.29 PM.png" alt="3 Luces Celestiales">
+                    <p>San Pedro Sctopan 2023</p>
+                </div>
+                
+                <div class="card5">
+                    <h3>Information</h3>
+                    <img src="images/landscape.webp" alt="3 Luces Celestiales">
+                    <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+                </div>
+        <!--
+                <div class="card4">
+                    <h3>Feria del Mole</h3>
+                    <p>Visits</p>
+                    <span class="material-symbols-outlined">
+                        barefoot
+                        </span>
+                    <img src="images/images-celestial" alt="3 Luces Celestiales">
+                </div>
+            -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-wrapper">
+        <div class="foot">
+                <span>&copy;<span id="currentYear"></span> | Esteban Almaraz | Salt Lake City, Utah, USA </span>
+                <div id="last-updated"></div>
+        </div>
+    </footer>
+</div>
+    <script src="scripts/getDates.js"></script>
+    <script src="week05/scripts/weather.js"></script>
+</body>
+</html>

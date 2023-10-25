@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230, Esteban Almaraz. Invitation to enroll to the Chamber of Commerce.">
+    <meta name="author"      content="Esteban Almaraz Reyes">
+    <title>Esteban Almaraz - WDD 230 - Web Frontend Development</title>
+    <meta name="WDD-230"     content="Lessons of the curse">
+    <meta property = "og:image" content="images/westvalley.jpg">
+    <meta property = "og:title" content="Homepage WDD230">
+
+
+    <link rel="icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css"      rel="stylesheet">
+    <link href="styles/form.css"      rel="stylesheet">
+    <link href="styles/larger.css"    rel="stylesheet">
+</head> 
+<body>
+  <div class="form-wrapper">
+   
+
+
+    <header>
+            <div class="header">
+                <img src="images/ear.webp" alt="Esteban Almaraz">
+                <div class="name">
+                    <h1>  Esteban Almaraz Reyes </h1>
+                </div> 
+            </div>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="chamber/index.html" title="Hidalgo Chamber of Commerce">Chamber</a></li>
+          <li><a href="week01/chamber-site-plan.html" title="Site plan">Site Plan</a></li>
+          <li><a href="form.html" title = "Form">Form</a></li>
+        </ul>       
+    </nav>
+
+    <main class="psw">
+      <div class="container">
+        <form action="submit.html" method = "get">
+  
+          <label class="top">First Name* <input type="text" id="username" name="fname" placeholder="User Name" required></label>
+
+          
+          <label class="top">Password<input type="password" id="password1" name="password1" placeholder="Password" 
+                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                 title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                 required></label>
+          <label class="top">Password<input type="password" id="password2" name="password2" placeholder="Verify your password please" 
+                 required></label>
+
+         
+                 <label class="top">Email<input type="email" id="email" name="email" placeholder="Please enter your e-mail"  
+                  pattern="[a-zA-Z0-9._%+-]+@byui@\.edu$" required></label>
+
+          
+          <div class="slidecontainer">
+            <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+            <p>Value: <span id="demo"></span></p>
+          </div>
+
+          <button id = "submitbtn" type = "submit">Submit</button>
+
+        </form>
+        <div id="message">
+          <h3>Password must contain the following:</h3>
+          <p id="letter"  class="invalid">A <b>lowercase</b> letter</p>
+          <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+          <p id="number"  class="invalid">A <b>number</b></p>
+          <p id="lenght"  class="invalid">Minimum <b>8 characters</b></p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+                <span>&copy;<span id="currentYear"></span> | Esteban Almaraz | Salt Lake City, Utah, USA </span>
+                <div id="last-updated"></div>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+  </div>
+</body>
+</html>
